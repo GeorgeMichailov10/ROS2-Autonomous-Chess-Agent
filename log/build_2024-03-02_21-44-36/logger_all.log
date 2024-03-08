@@ -1,0 +1,105 @@
+[3.891s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.891s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb2650c6ca0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb2650c6ca0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb2650c62b0>)
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.047s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/george/Documents/ProjectDir'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['ignore', 'ignore_ament_install']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ignore'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ignore_ament_install'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['colcon_pkg']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'colcon_pkg'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['colcon_meta']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'colcon_meta'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['ros']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ros'
+[4.061s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_files' with type 'ros.ament_python' and name 'project_files'
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.578s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/george/Documents/ProjectDir/install
+[4.649s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[4.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_args' from command line to 'None'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_target' from command line to 'None'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_clean_cache' from command line to 'False'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_clean_first' from command line to 'False'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_force_configure' from command line to 'False'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'ament_cmake_args' from command line to 'None'
+[4.850s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'catkin_cmake_args' from command line to 'None'
+[4.851s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.851s] DEBUG:colcon.colcon_core.verb:Building package 'project_files' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/george/Documents/ProjectDir/build/project_files', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/george/Documents/ProjectDir/install/project_files', 'merge_install': False, 'path': '/home/george/Documents/ProjectDir/src/project_files', 'symlink_install': False, 'test_result_base': None}
+[4.920s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.992s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.992s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/george/Documents/ProjectDir/src/project_files' with build type 'ament_python'
+[4.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_files', 'ament_prefix_path')
+[5.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.ps1'
+[5.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.dsv'
+[5.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.sh'
+[5.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.'
+[5.679s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.770s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.771s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.ps1'
+[5.848s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/george/Documents/ProjectDir/install/_local_setup_util_ps1.py'
+[5.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.ps1'
+[5.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.sh'
+[5.921s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/george/Documents/ProjectDir/install/_local_setup_util_sh.py'
+[5.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.sh'
+[5.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.bash'
+[5.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.bash'
+[6.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.zsh'
+[6.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.zsh'

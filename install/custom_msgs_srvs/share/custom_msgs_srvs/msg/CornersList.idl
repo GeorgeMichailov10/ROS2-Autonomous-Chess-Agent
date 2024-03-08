@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs_srvs/msg/CornersList.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs_srvs {
+  module msg {
+    typedef int32 int32__2[2];
+    struct CornersList {
+      int32__2 top_left_corner;
+
+      int32__2 top_right_corner;
+
+      int32__2 bottom_right_corner;
+
+      int32__2 bottom_left_corner;
+    };
+  };
+};

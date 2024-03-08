@@ -1,0 +1,4 @@
+sensor_msgs/Image board
+---
+bool success
+CornersList corners_list

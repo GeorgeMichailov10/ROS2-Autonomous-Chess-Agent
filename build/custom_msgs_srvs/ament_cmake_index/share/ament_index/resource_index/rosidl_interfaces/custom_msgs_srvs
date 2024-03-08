@@ -1,0 +1,10 @@
+msg/Bitmap.idl
+msg/Bitmap.msg
+msg/CornersList.idl
+msg/CornersList.msg
+msg/EngineMove.idl
+msg/EngineMove.msg
+srv/GetCorners.idl
+srv/GetCorners.srv
+srv/GetCorners_Request.msg
+srv/GetCorners_Response.msg

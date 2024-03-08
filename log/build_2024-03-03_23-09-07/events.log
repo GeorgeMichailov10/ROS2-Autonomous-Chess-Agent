@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000266] (custom_msgs_srvs) JobQueued: {'identifier': 'custom_msgs_srvs', 'dependencies': OrderedDict()}
+[0.000340] (project_files) JobQueued: {'identifier': 'project_files', 'dependencies': OrderedDict([('custom_msgs_srvs', '/home/george/Documents/ProjectDir/install/custom_msgs_srvs')])}
+[0.000397] (custom_msgs_srvs) JobStarted: {'identifier': 'custom_msgs_srvs'}
+[0.099764] (-) TimerEvent: {}
+[0.124550] (custom_msgs_srvs) JobProgress: {'identifier': 'custom_msgs_srvs', 'progress': 'cmake'}
+[0.125712] (custom_msgs_srvs) JobProgress: {'identifier': 'custom_msgs_srvs', 'progress': 'build'}
+[0.126477] (custom_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/george/Documents/ProjectDir/build/custom_msgs_srvs', '--', '-j6', '-l6'], 'cwd': '/home/george/Documents/ProjectDir/build/custom_msgs_srvs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'george'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/george/Documents/ProjectDir/build/custom_msgs_srvs'), ('LC_ALL', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.199989] (-) TimerEvent: {}
+[0.254827] (custom_msgs_srvs) StdoutLine: {'line': b'[  1%] Built target custom_msgs_srvs__cpp\n'}
+[0.260276] (custom_msgs_srvs) StdoutLine: {'line': b'[ 12%] Built target custom_msgs_srvs__rosidl_generator_c\n'}
+[0.286420] (custom_msgs_srvs) StdoutLine: {'line': b'[ 23%] Built target custom_msgs_srvs__rosidl_typesupport_cpp\n'}
+[0.290160] (custom_msgs_srvs) StdoutLine: {'line': b'[ 34%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_cpp\n'}
+[0.296109] (custom_msgs_srvs) StdoutLine: {'line': b'[ 45%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.297892] (custom_msgs_srvs) StdoutLine: {'line': b'[ 56%] Built target custom_msgs_srvs__rosidl_typesupport_c\n'}
+[0.298199] (custom_msgs_srvs) StdoutLine: {'line': b'[ 67%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_c\n'}
+[0.300096] (-) TimerEvent: {}
+[0.326707] (custom_msgs_srvs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_c\n'}
+[0.356958] (custom_msgs_srvs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs_srvs\n'}
+[0.388640] (custom_msgs_srvs) StdoutLine: {'line': b'[ 80%] Built target custom_msgs_srvs__py\n'}
+[0.400251] (-) TimerEvent: {}
+[0.434547] (custom_msgs_srvs) StdoutLine: {'line': b'[ 89%] Built target custom_msgs_srvs__python\n'}
+[0.469603] (custom_msgs_srvs) StdoutLine: {'line': b'[ 92%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.476125] (custom_msgs_srvs) StdoutLine: {'line': b'[ 96%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.477009] (custom_msgs_srvs) StdoutLine: {'line': b'[100%] Built target custom_msgs_srvs__rosidl_typesupport_c__pyext\n'}
+[0.492664] (custom_msgs_srvs) CommandEnded: {'returncode': 0}
+[0.500389] (-) TimerEvent: {}
+[0.571267] (custom_msgs_srvs) JobProgress: {'identifier': 'custom_msgs_srvs', 'progress': 'install'}
+[0.589872] (custom_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/george/Documents/ProjectDir/build/custom_msgs_srvs'], 'cwd': '/home/george/Documents/ProjectDir/build/custom_msgs_srvs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'george'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/george/Documents/ProjectDir/build/custom_msgs_srvs'), ('LC_ALL', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.600534] (-) TimerEvent: {}
+[0.603515] (custom_msgs_srvs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.603874] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs_srvs\n'}
+[0.604164] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.604344] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.604507] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/get_corners.h\n'}
+[0.604807] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.604969] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.h\n'}
+[0.605128] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__functions.c\n'}
+[0.605289] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__struct.h\n'}
+[0.605447] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__functions.h\n'}
+[0.605605] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.605762] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/bitmap.h\n'}
+[0.605920] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/engine_move.h\n'}
+[0.606078] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.606236] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/corners_list.h\n'}
+[0.606392] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.606549] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.h\n'}
+[0.607015] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__functions.c\n'}
+[0.607216] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__functions.h\n'}
+[0.607384] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__functions.h\n'}
+[0.607543] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__struct.h\n'}
+[0.607726] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__struct.h\n'}
+[0.607879] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__struct.h\n'}
+[0.608158] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.h\n'}
+[0.608330] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__functions.c\n'}
+[0.608498] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.h\n'}
+[0.608657] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__functions.c\n'}
+[0.608949] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__functions.h\n'}
+[0.609113] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.sh\n'}
+[0.609214] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.dsv\n'}
+[0.609271] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_c.so\n'}
+[0.609326] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.609382] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.609438] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.609494] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_fastrtps_c.h\n'}
+[0.609551] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.609607] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.609662] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.609719] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_fastrtps_c.h\n'}
+[0.609776] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_fastrtps_c.h\n'}
+[0.609833] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_fastrtps_c.h\n'}
+[0.609891] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.609975] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.610034] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.610090] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.610157] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.610210] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/dds_fastrtps\n'}
+[0.610266] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.610321] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.610422] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.610513] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.610642] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/dds_fastrtps\n'}
+[0.610720] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.610790] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.610953] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.611026] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.611091] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.611201] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.611338] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.c\n'}
+[0.611417] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_introspection_c.h\n'}
+[0.611475] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.611535] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.611591] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.611647] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.c\n'}
+[0.611703] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.c\n'}
+[0.611760] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.c\n'}
+[0.611816] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_introspection_c.h\n'}
+[0.611871] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_introspection_c.h\n'}
+[0.611940] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_introspection_c.h\n'}
+[0.612023] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so\n'}
+[0.612840] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_c.so\n'}
+[0.613203] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.613607] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.613782] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/get_corners.hpp\n'}
+[0.613843] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.613907] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__traits.hpp\n'}
+[0.613974] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__struct.hpp\n'}
+[0.614044] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__builder.hpp\n'}
+[0.614192] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.614261] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/corners_list.hpp\n'}
+[0.614412] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/bitmap.hpp\n'}
+[0.614468] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/engine_move.hpp\n'}
+[0.614536] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.614735] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__builder.hpp\n'}
+[0.614810] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__struct.hpp\n'}
+[0.614877] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__traits.hpp\n'}
+[0.615018] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__traits.hpp\n'}
+[0.615133] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__struct.hpp\n'}
+[0.615231] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__builder.hpp\n'}
+[0.615334] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__traits.hpp\n'}
+[0.615391] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__struct.hpp\n'}
+[0.615461] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__builder.hpp\n'}
+[0.615516] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs\n'}
+[0.615585] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv\n'}
+[0.615641] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail\n'}
+[0.615696] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.cpp\n'}
+[0.615752] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.615808] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg\n'}
+[0.615861] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail\n'}
+[0.615916] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.615971] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.616026] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.cpp\n'}
+[0.616080] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.616136] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.cpp\n'}
+[0.616189] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.cpp\n'}
+[0.616419] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.617637] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_cpp.so\n'}
+[0.618065] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.sh\n'}
+[0.618210] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.dsv\n'}
+[0.618661] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/__init__.py\n'}
+[0.646923] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg\n'}
+[0.647163] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_corners_list_s.c\n'}
+[0.647243] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/__init__.py\n'}
+[0.647308] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_bitmap_s.c\n'}
+[0.647434] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_bitmap.py\n'}
+[0.647552] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_corners_list.py\n'}
+[0.647609] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_engine_move_s.c\n'}
+[0.647664] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_engine_move.py\n'}
+[0.647719] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv\n'}
+[0.647774] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/__init__.py\n'}
+[0.647830] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/_get_corners_s.c\n'}
+[0.647885] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/_get_corners.py\n'}
+[0.648287] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.649853] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.651522] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.652725] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__python.so\n'}
+[0.653289] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Bitmap.idl\n'}
+[0.653461] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/CornersList.idl\n'}
+[0.653672] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/EngineMove.idl\n'}
+[0.653899] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners.idl\n'}
+[0.654035] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Bitmap.msg\n'}
+[0.654163] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/CornersList.msg\n'}
+[0.654382] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/EngineMove.msg\n'}
+[0.654511] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners.srv\n'}
+[0.654704] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners_Request.msg\n'}
+[0.654840] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners_Response.msg\n'}
+[0.655025] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/custom_msgs_srvs\n'}
+[0.655153] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/custom_msgs_srvs\n'}
+[0.655380] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.sh\n'}
+[0.655514] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.dsv\n'}
+[0.655704] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.sh\n'}
+[0.655841] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.dsv\n'}
+[0.655970] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.bash\n'}
+[0.656097] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.sh\n'}
+[0.656223] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.zsh\n'}
+[0.656434] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.dsv\n'}
+[0.656567] (custom_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.dsv\n'}
+[0.656687] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/packages/custom_msgs_srvs\n'}
+[0.657388] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cExport.cmake\n'}
+[0.657586] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.658183] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.658379] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.658709] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport.cmake\n'}
+[0.658921] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.659105] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cppExport.cmake\n'}
+[0.659403] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.659584] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.659829] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport.cmake\n'}
+[0.660044] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.660183] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.660320] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.660454] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.660674] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.660811] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.660937] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.661072] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.661200] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig.cmake\n'}
+[0.661327] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig-version.cmake\n'}
+[0.661455] (custom_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.xml\n'}
+[0.662948] (custom_msgs_srvs) CommandEnded: {'returncode': 0}
+[0.700951] (-) TimerEvent: {}
+[0.802478] (-) TimerEvent: {}
+[0.904760] (-) TimerEvent: {}
+[1.005529] (-) TimerEvent: {}
+[1.106433] (-) TimerEvent: {}
+[1.210445] (-) TimerEvent: {}
+[1.311107] (-) TimerEvent: {}
+[1.407670] (custom_msgs_srvs) JobEnded: {'identifier': 'custom_msgs_srvs', 'rc': 0}
+[1.408408] (project_files) JobStarted: {'identifier': 'project_files'}
+[1.411190] (-) TimerEvent: {}
+[1.512044] (-) TimerEvent: {}
+[1.612672] (-) TimerEvent: {}
+[1.713271] (-) TimerEvent: {}
+[1.813873] (-) TimerEvent: {}
+[1.915855] (-) TimerEvent: {}
+[2.016440] (-) TimerEvent: {}
+[2.116865] (-) TimerEvent: {}
+[2.217265] (-) TimerEvent: {}
+[2.238658] (project_files) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/project_files', 'build', '--build-base', '/home/george/Documents/ProjectDir/build/project_files/build', 'install', '--record', '/home/george/Documents/ProjectDir/build/project_files/install.log', '--single-version-externally-managed'], 'cwd': '/home/george/Documents/ProjectDir/src/project_files', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/george/Documents/ProjectDir/install/custom_msgs_srvs', 'SHELL': '/bin/bash', 'SUDO_USER': 'george', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/george/Documents/ProjectDir/build/project_files', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/george/Documents/ProjectDir/install/custom_msgs_srvs'}, 'shell': False}
+[2.317740] (-) TimerEvent: {}
+[2.399813] (project_files) StdoutLine: {'line': b'running egg_info\n'}
+[2.400509] (project_files) StdoutLine: {'line': b'writing ../../build/project_files/project_files.egg-info/PKG-INFO\n'}
+[2.400810] (project_files) StdoutLine: {'line': b'writing dependency_links to ../../build/project_files/project_files.egg-info/dependency_links.txt\n'}
+[2.400944] (project_files) StdoutLine: {'line': b'writing entry points to ../../build/project_files/project_files.egg-info/entry_points.txt\n'}
+[2.401030] (project_files) StdoutLine: {'line': b'writing requirements to ../../build/project_files/project_files.egg-info/requires.txt\n'}
+[2.401216] (project_files) StdoutLine: {'line': b'writing top-level names to ../../build/project_files/project_files.egg-info/top_level.txt\n'}
+[2.418103] (-) TimerEvent: {}
+[2.431379] (project_files) StdoutLine: {'line': b"reading manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'\n"}
+[2.432240] (project_files) StdoutLine: {'line': b"writing manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'\n"}
+[2.432565] (project_files) StdoutLine: {'line': b'running build\n'}
+[2.432765] (project_files) StdoutLine: {'line': b'running build_py\n'}
+[2.432962] (project_files) StdoutLine: {'line': b'copying project_files/CornerFinder.py -> /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files\n'}
+[2.433155] (project_files) StdoutLine: {'line': b'running install\n'}
+[2.433789] (project_files) StdoutLine: {'line': b'running install_lib\n'}
+[2.434555] (project_files) StdoutLine: {'line': b'copying /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files/CornerFinder.py -> /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files\n'}
+[2.435285] (project_files) StdoutLine: {'line': b'byte-compiling /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files/CornerFinder.py to CornerFinder.cpython-38.pyc\n'}
+[2.437602] (project_files) StdoutLine: {'line': b'running install_data\n'}
+[2.438384] (project_files) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.439608] (project_files) StdoutLine: {'line': b"removing '/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[2.439838] (project_files) StdoutLine: {'line': b'Copying ../../build/project_files/project_files.egg-info to /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info\n'}
+[2.440650] (project_files) StdoutLine: {'line': b'running install_scripts\n'}
+[2.456959] (project_files) StdoutLine: {'line': b'Installing board_state_detector script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files\n'}
+[2.457444] (project_files) StdoutLine: {'line': b'Installing chess_engine script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files\n'}
+[2.457765] (project_files) StdoutLine: {'line': b'Installing corner_finder script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files\n'}
+[2.457932] (project_files) StdoutLine: {'line': b'Installing image_fetcher script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files\n'}
+[2.458083] (project_files) StdoutLine: {'line': b'Installing move_interpreter script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files\n'}
+[2.458233] (project_files) StdoutLine: {'line': b"writing list of installed files to '/home/george/Documents/ProjectDir/build/project_files/install.log'\n"}
+[2.486082] (project_files) CommandEnded: {'returncode': 0}
+[2.519980] (-) TimerEvent: {}
+[2.621340] (-) TimerEvent: {}
+[2.663041] (project_files) JobEnded: {'identifier': 'project_files', 'rc': 0}
+[2.664138] (-) EventReactorShutdown: {}

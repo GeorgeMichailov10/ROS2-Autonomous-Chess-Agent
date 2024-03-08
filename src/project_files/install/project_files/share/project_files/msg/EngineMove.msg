@@ -1,0 +1,2 @@
+String move
+boolean castle

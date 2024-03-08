@@ -1,0 +1,28 @@
+[2.378s] Invoking command in '/home/george/Documents/ProjectDir/src/project_files': LD_LIBRARY_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed
+[2.559s] running egg_info
+[2.560s] writing ../../build/project_files/project_files.egg-info/PKG-INFO
+[2.560s] writing dependency_links to ../../build/project_files/project_files.egg-info/dependency_links.txt
+[2.560s] writing entry points to ../../build/project_files/project_files.egg-info/entry_points.txt
+[2.560s] writing requirements to ../../build/project_files/project_files.egg-info/requires.txt
+[2.560s] writing top-level names to ../../build/project_files/project_files.egg-info/top_level.txt
+[2.618s] reading manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[2.622s] writing manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[2.622s] running build
+[2.622s] running build_py
+[2.630s] copying project_files/CornerFinder.py -> /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files
+[2.633s] running install
+[2.635s] running install_lib
+[2.640s] copying /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files/CornerFinder.py -> /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files
+[2.642s] byte-compiling /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files/CornerFinder.py to CornerFinder.cpython-38.pyc
+[2.647s] running install_data
+[2.652s] running install_egg_info
+[2.655s] removing '/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info' (and everything under it)
+[2.656s] Copying ../../build/project_files/project_files.egg-info to /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info
+[2.661s] running install_scripts
+[2.681s] Installing board_state_detector script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[2.682s] Installing chess_engine script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[2.682s] Installing corner_finder script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[2.682s] Installing image_fetcher script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[2.682s] Installing move_interpreter script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[2.682s] writing list of installed files to '/home/george/Documents/ProjectDir/build/project_files/install.log'
+[2.717s] Invoked command in '/home/george/Documents/ProjectDir/src/project_files' returned '0': LD_LIBRARY_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed

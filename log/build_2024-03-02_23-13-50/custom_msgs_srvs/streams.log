@@ -1,0 +1,56 @@
+[0.231s] Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs
+[0.245s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.269s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.340s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.662s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.842s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.842s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.842s]   custom_msgs_srvs --arguments-file
+[0.842s]   /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter__arguments__custom_msgs_srvs.json
+[0.842s]   --output-dir
+[0.842s]   /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter/custom_msgs_srvs
+[0.842s]   --output-file
+[0.842s]   /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter/custom_msgs_srvs.idls)
+[0.842s]   returned error code 1:
+[0.842s] 
+[0.842s]   Error processing 'sensor_msgs/msg/Image board' of
+[0.842s]   'custom_msgs_srvs/GetCorners_Request': 'sensor_msgs/msg/Image'
+[0.842s] 
+[0.842s]   Traceback (most recent call last):
+[0.843s] 
+[0.843s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.843s]       return _run_code(code, main_globals, None,
+[0.843s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.843s]       exec(code, run_globals)
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.843s]       sys.exit(main())
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.843s]       abs_idl_file = convert_to_idl(
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.843s]       return convert_srv_to_idl(
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.843s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[0.843s]       request_message = parse_message_string(
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[0.843s]       Type(type_string, context_package_name=pkg_name),
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[0.843s]       super(Type, self).__init__(
+[0.843s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 189, in __init__
+[0.844s]       raise InvalidResourceName(type_string)
+[0.844s] 
+[0.844s]   rosidl_adapter.parser.InvalidResourceName: sensor_msgs/msg/Image
+[0.844s] 
+[0.844s] Call Stack (most recent call first):
+[0.844s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.844s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.844s] 
+[0.844s] 
+[0.844s] -- Configuring incomplete, errors occurred!
+[0.844s] See also "/home/george/Documents/ProjectDir/build/custom_msgs_srvs/CMakeFiles/CMakeOutput.log".
+[0.852s] Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs

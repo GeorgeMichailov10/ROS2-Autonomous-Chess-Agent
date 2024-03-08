@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_msgs_srvs",
+  "non_idl_tuples": [
+    "/home/george/Documents/ProjectDir/src/custom_msgs_srvs:msg/Bitmap.msg",
+    "/home/george/Documents/ProjectDir/src/custom_msgs_srvs:msg/CornersList.msg",
+    "/home/george/Documents/ProjectDir/src/custom_msgs_srvs:msg/EngineMove.msg",
+    "/home/george/Documents/ProjectDir/src/custom_msgs_srvs:srv/GetCorners.srv"
+  ]
+}

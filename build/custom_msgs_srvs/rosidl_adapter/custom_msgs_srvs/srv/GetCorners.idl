@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs_srvs/srv/GetCorners.srv
+// generated code does not contain a copyright notice
+
+#include "custom_msgs_srvs/msg/CornersList.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module custom_msgs_srvs {
+  module srv {
+    struct GetCorners_Request {
+      sensor_msgs::msg::Image board;
+    };
+    struct GetCorners_Response {
+      boolean success;
+
+      custom_msgs_srvs::msg::CornersList corners_list;
+    };
+  };
+};

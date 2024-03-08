@@ -1,0 +1,7 @@
+[console_scripts]
+board_state_detector = project_files.ChangeInStateDetector:main
+chess_engine = project_files.EngineInterface:main
+corner_finder = project_files.CornerFinder:main
+image_fetcher = project_files.ImageFetcher:main
+move_interpreter = project_files.MoveInterpreter:main
+

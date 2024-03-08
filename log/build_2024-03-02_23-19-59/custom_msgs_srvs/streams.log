@@ -1,0 +1,296 @@
+[0.235s] Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs
+[0.253s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.348s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.677s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.872s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.349s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.351s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.383s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.383s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.383s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.383s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.407s] -- Found PythonExtra: .so  
+[1.502s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.528s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.530s] -- Added test 'lint_cmake' to check CMake code style
+[1.532s] -- Added test 'xmllint' to check XML markup files
+[1.536s] -- Configuring done
+[1.606s] -- Generating done
+[1.608s] -- Build files have been written to: /home/george/Documents/ProjectDir/build/custom_msgs_srvs
+[1.621s] Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs
+[1.625s] Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/george/Documents/ProjectDir/build/custom_msgs_srvs -- -j6 -l6
+[1.687s] [35m[1mScanning dependencies of target custom_msgs_srvs__cpp[0m
+[1.689s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.705s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.052s] [  3%] Built target custom_msgs_srvs__cpp
+[2.064s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.068s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.072s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.103s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_generator_c[0m
+[2.120s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/engine_move__functions.c.o[0m
+[2.122s] [ 12%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/bitmap__functions.c.o[0m
+[2.127s] [ 14%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/msg/detail/corners_list__functions.c.o[0m
+[2.174s] [ 16%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_srvs/srv/detail/get_corners__functions.c.o[0m
+[2.227s] [ 18%] [32m[1mLinking C shared library libcustom_msgs_srvs__rosidl_generator_c.so[0m
+[2.286s] [ 18%] Built target custom_msgs_srvs__rosidl_generator_c
+[2.297s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.301s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.377s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_cpp[0m
+[2.394s] [ 23%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_srvs/msg/bitmap__type_support.cpp.o[0m
+[2.401s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_introspection_cpp[0m
+[2.418s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_srvs/msg/detail/bitmap__type_support.cpp.o[0m
+[2.430s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_srvs/msg/corners_list__type_support.cpp.o[0m
+[2.453s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[2.480s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_srvs/msg/detail/dds_fastrtps/bitmap__type_support.cpp.o[0m
+[2.637s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_c[0m
+[2.662s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_srvs/msg/bitmap__type_support.cpp.o[0m
+[2.694s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_srvs/msg/engine_move__type_support.cpp.o[0m
+[2.712s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_srvs/msg/corners_list__type_support.cpp.o[0m
+[2.728s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_srvs/srv/get_corners__type_support.cpp.o[0m
+[2.745s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_srvs/msg/detail/corners_list__type_support.cpp.o[0m
+[2.754s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_srvs/msg/engine_move__type_support.cpp.o[0m
+[2.754s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_introspection_c[0m
+[2.779s] [ 41%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_srvs/msg/detail/bitmap__type_support.c.o[0m
+[2.789s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_srvs/srv/get_corners__type_support.cpp.o[0m
+[2.816s] [ 45%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_srvs/msg/detail/corners_list__type_support.c.o[0m
+[2.826s] [ 47%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_c.so[0m
+[2.874s] [ 49%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_srvs/msg/detail/engine_move__type_support.c.o[0m
+[2.882s] [ 49%] Built target custom_msgs_srvs__rosidl_typesupport_c
+[2.893s] [ 50%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_srvs/srv/detail/get_corners__type_support.c.o[0m
+[2.910s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_srvs/msg/detail/engine_move__type_support.cpp.o[0m
+[2.937s] [ 54%] [32m[1mLinking C shared library libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so[0m
+[2.984s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_srvs/msg/detail/dds_fastrtps/corners_list__type_support.cpp.o[0m
+[2.992s] [ 56%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_c
+[2.993s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_srvs/srv/detail/get_corners__type_support.cpp.o[0m
+[3.004s] [ 60%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_srvs/msg/detail/dds_fastrtps/engine_move__type_support.cpp.o[0m
+[3.032s] [ 61%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_cpp.so[0m
+[3.044s] [ 63%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_srvs/srv/detail/dds_fastrtps/get_corners__type_support.cpp.o[0m
+[3.084s] [ 63%] Built target custom_msgs_srvs__rosidl_typesupport_cpp
+[3.302s] [ 65%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[3.437s] [ 65%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_cpp
+[3.450s] [ 67%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.572s] [ 67%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[3.588s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.881s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_fastrtps_c[0m
+[3.911s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_srvs/msg/detail/corners_list__type_support_c.cpp.o[0m
+[3.911s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_srvs/msg/detail/bitmap__type_support_c.cpp.o[0m
+[3.911s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_srvs/msg/detail/engine_move__type_support_c.cpp.o[0m
+[3.912s] [ 76%] [32mBuilding CXX object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_srvs/srv/detail/get_corners__type_support_c.cpp.o[0m
+[4.269s] [ 78%] [32m[1mLinking CXX shared library libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[4.393s] [ 78%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_c
+[4.411s] [35m[1mScanning dependencies of target custom_msgs_srvs[0m
+[4.427s] [ 78%] Built target custom_msgs_srvs
+[4.443s] [35m[1mScanning dependencies of target custom_msgs_srvs__py[0m
+[4.455s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.062s] [ 80%] Built target custom_msgs_srvs__py
+[5.072s] [35m[1mScanning dependencies of target custom_msgs_srvs__python[0m
+[5.111s] [ 81%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__python.dir/rosidl_generator_py/custom_msgs_srvs/msg/_corners_list_s.c.o[0m
+[5.112s] [ 83%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__python.dir/rosidl_generator_py/custom_msgs_srvs/srv/_get_corners_s.c.o[0m
+[5.112s] [ 85%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__python.dir/rosidl_generator_py/custom_msgs_srvs/msg/_engine_move_s.c.o[0m
+[5.114s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__python.dir/rosidl_generator_py/custom_msgs_srvs/msg/_bitmap_s.c.o[0m
+[5.235s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_srvs/libcustom_msgs_srvs__python.so[0m
+[5.299s] [ 89%] Built target custom_msgs_srvs__python
+[5.313s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_c__pyext[0m
+[5.313s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[5.316s] [35m[1mScanning dependencies of target custom_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.335s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.336s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.343s] [ 94%] [32mBuilding C object CMakeFiles/custom_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs_srvs/_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.431s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.431s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.434s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.483s] [100%] Built target custom_msgs_srvs__rosidl_typesupport_c__pyext
+[5.488s] [100%] Built target custom_msgs_srvs__rosidl_typesupport_introspection_c__pyext
+[5.516s] [100%] Built target custom_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext
+[5.534s] Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/george/Documents/ProjectDir/build/custom_msgs_srvs -- -j6 -l6
+[5.663s] Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/george/Documents/ProjectDir/build/custom_msgs_srvs
+[5.676s] -- Install configuration: ""
+[5.676s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs_srvs
+[5.676s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.676s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.676s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/get_corners.h
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.h
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__functions.c
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__struct.h
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__functions.h
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/bitmap.h
+[5.677s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/engine_move.h
+[5.678s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[5.678s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/corners_list.h
+[5.678s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.678s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.h
+[5.678s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__functions.c
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__functions.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__functions.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__struct.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__struct.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__struct.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__functions.c
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.h
+[5.679s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__functions.c
+[5.680s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__functions.h
+[5.680s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.sh
+[5.680s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/library_path.dsv
+[5.680s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_c.so
+[5.680s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_generator_c.so" to ""
+[5.680s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.680s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.681s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.681s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_fastrtps_c.h
+[5.681s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.681s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.681s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.681s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_fastrtps_c.h
+[5.682s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_fastrtps_c.h
+[5.682s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_fastrtps_c.h
+[5.682s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[5.682s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.682s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.682s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.682s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_fastrtps_cpp.hpp
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/dds_fastrtps
+[5.683s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.683s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_fastrtps_cpp.hpp
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/dds_fastrtps
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_fastrtps_cpp.hpp
+[5.683s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_fastrtps_cpp.hpp
+[5.684s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[5.684s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.684s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.684s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.684s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.684s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.c
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_introspection_c.h
+[5.685s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.685s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.c
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.c
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.c
+[5.685s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_introspection_c.h
+[5.686s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_introspection_c.h
+[5.686s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_introspection_c.h
+[5.686s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so
+[5.686s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""
+[5.686s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_c.so
+[5.686s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_c.so" to ""
+[5.686s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.686s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/get_corners.hpp
+[5.687s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__traits.hpp
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__struct.hpp
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__builder.hpp
+[5.687s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/corners_list.hpp
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/bitmap.hpp
+[5.687s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/engine_move.hpp
+[5.688s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__builder.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__struct.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__traits.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__traits.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__struct.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__builder.hpp
+[5.688s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__traits.hpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__struct.hpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__builder.hpp
+[5.689s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs
+[5.689s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv
+[5.689s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__type_support.cpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/srv/detail/get_corners__rosidl_typesupport_introspection_cpp.hpp
+[5.689s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg
+[5.689s] -- Up-to-date: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__rosidl_typesupport_introspection_cpp.hpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__rosidl_typesupport_introspection_cpp.hpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__type_support.cpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/engine_move__rosidl_typesupport_introspection_cpp.hpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/corners_list__type_support.cpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/include/custom_msgs_srvs/msg/detail/bitmap__type_support.cpp
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[5.689s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.689s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_cpp.so
+[5.690s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__rosidl_typesupport_cpp.so" to ""
+[5.690s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.sh
+[5.690s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/pythonpath.dsv
+[5.690s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/__init__.py
+[5.713s] Compiling '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/__init__.py'...
+[5.717s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg
+[5.717s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_corners_list_s.c
+[5.717s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/__init__.py
+[5.717s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_bitmap_s.c
+[5.717s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_bitmap.py
+[5.718s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_corners_list.py
+[5.718s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_engine_move_s.c
+[5.718s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/msg/_engine_move.py
+[5.718s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv
+[5.718s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/__init__.py
+[5.719s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/_get_corners_s.c
+[5.719s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/srv/_get_corners.py
+[5.719s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.720s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.721s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.722s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.722s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages/custom_msgs_srvs/custom_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__python.so
+[5.724s] -- Set runtime path of "/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/libcustom_msgs_srvs__python.so" to ""
+[5.724s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Bitmap.idl
+[5.724s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/CornersList.idl
+[5.724s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/EngineMove.idl
+[5.725s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners.idl
+[5.725s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/Bitmap.msg
+[5.725s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/CornersList.msg
+[5.726s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/msg/EngineMove.msg
+[5.726s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners.srv
+[5.726s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners_Request.msg
+[5.726s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/srv/GetCorners_Response.msg
+[5.727s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/custom_msgs_srvs
+[5.727s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/custom_msgs_srvs
+[5.727s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.sh
+[5.727s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/ament_prefix_path.dsv
+[5.727s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.sh
+[5.728s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/environment/path.dsv
+[5.728s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.bash
+[5.728s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.sh
+[5.729s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.zsh
+[5.729s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/local_setup.dsv
+[5.729s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.dsv
+[5.729s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/ament_index/resource_index/packages/custom_msgs_srvs
+[5.730s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cExport.cmake
+[5.730s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[5.730s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[5.731s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.731s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport.cmake
+[5.731s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[5.732s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_generator_cppExport.cmake
+[5.732s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[5.733s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.735s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[5.735s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.735s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.736s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig.cmake
+[5.737s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/cmake/custom_msgs_srvsConfig-version.cmake
+[5.737s] -- Installing: /home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.xml
+[5.739s] Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/george/Documents/ProjectDir/build/custom_msgs_srvs

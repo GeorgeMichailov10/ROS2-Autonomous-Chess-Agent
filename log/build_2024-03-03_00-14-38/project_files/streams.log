@@ -1,0 +1,28 @@
+[1.234s] Invoking command in '/home/george/Documents/ProjectDir/src/project_files': PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed
+[1.413s] running egg_info
+[1.414s] writing ../../build/project_files/project_files.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/project_files/project_files.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/project_files/project_files.egg-info/entry_points.txt
+[1.414s] writing requirements to ../../build/project_files/project_files.egg-info/requires.txt
+[1.414s] writing top-level names to ../../build/project_files/project_files.egg-info/top_level.txt
+[1.442s] reading manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[1.442s] writing manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[1.443s] running build
+[1.443s] running build_py
+[1.443s] copying project_files/ChangeInStateDetector.py -> /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files
+[1.443s] running install
+[1.444s] running install_lib
+[1.445s] copying /home/george/Documents/ProjectDir/build/project_files/build/lib/project_files/ChangeInStateDetector.py -> /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files
+[1.445s] byte-compiling /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files/ChangeInStateDetector.py to ChangeInStateDetector.cpython-38.pyc
+[1.447s] running install_data
+[1.448s] running install_egg_info
+[1.449s] removing '/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info' (and everything under it)
+[1.449s] Copying ../../build/project_files/project_files.egg-info to /home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages/project_files-0.0.1-py3.8.egg-info
+[1.450s] running install_scripts
+[1.463s] Installing board_state_detector script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[1.463s] Installing chess_engine script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[1.464s] Installing corner_finder script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[1.464s] Installing image_fetcher script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[1.464s] Installing move_interpreter script to /home/george/Documents/ProjectDir/install/project_files/lib/project_files
+[1.464s] writing list of installed files to '/home/george/Documents/ProjectDir/build/project_files/install.log'
+[1.493s] Invoked command in '/home/george/Documents/ProjectDir/src/project_files' returned '0': PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed

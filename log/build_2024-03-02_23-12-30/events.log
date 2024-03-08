@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000714] (-) JobUnselected: {'identifier': 'project_files'}
+[0.000794] (custom_msgs_srvs) JobQueued: {'identifier': 'custom_msgs_srvs', 'dependencies': OrderedDict()}
+[0.000849] (custom_msgs_srvs) JobStarted: {'identifier': 'custom_msgs_srvs'}
+[0.099955] (-) TimerEvent: {}
+[0.200819] (-) TimerEvent: {}
+[0.252837] (custom_msgs_srvs) JobProgress: {'identifier': 'custom_msgs_srvs', 'progress': 'cmake'}
+[0.253754] (custom_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '/home/george/Documents/ProjectDir/src/custom_msgs_srvs', '-DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs'], 'cwd': '/home/george/Documents/ProjectDir/build/custom_msgs_srvs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/george/Documents/ProjectDir/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'george'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/george/Documents/ProjectDir/build/custom_msgs_srvs'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.276174] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.301033] (-) TimerEvent: {}
+[0.304240] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.304547] (custom_msgs_srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.389629] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.394708] (custom_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400662] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.401092] (-) TimerEvent: {}
+[0.501378] (-) TimerEvent: {}
+[0.547817] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.579909] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.601514] (-) TimerEvent: {}
+[0.666212] (custom_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.697576] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.701605] (-) TimerEvent: {}
+[0.801956] (-) TimerEvent: {}
+[0.867995] (custom_msgs_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.902071] (-) TimerEvent: {}
+[1.002452] (-) TimerEvent: {}
+[1.064295] (custom_msgs_srvs) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.064503] (custom_msgs_srvs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.064562] (custom_msgs_srvs) StderrLine: {'line': b'  custom_msgs_srvs --arguments-file\n'}
+[1.064613] (custom_msgs_srvs) StderrLine: {'line': b'  /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter__arguments__custom_msgs_srvs.json\n'}
+[1.064664] (custom_msgs_srvs) StderrLine: {'line': b'  --output-dir\n'}
+[1.064714] (custom_msgs_srvs) StderrLine: {'line': b'  /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter/custom_msgs_srvs\n'}
+[1.064765] (custom_msgs_srvs) StderrLine: {'line': b'  --output-file\n'}
+[1.064815] (custom_msgs_srvs) StderrLine: {'line': b'  /home/george/Documents/ProjectDir/build/custom_msgs_srvs/rosidl_adapter/custom_msgs_srvs.idls)\n'}
+[1.064866] (custom_msgs_srvs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.064917] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.065010] (custom_msgs_srvs) StderrLine: {'line': b"  Error processing 'boolean castle' of 'custom_msgs_srvs/EngineMove':\n"}
+[1.065068] (custom_msgs_srvs) StderrLine: {'line': b"  ''boolean' is an invalid message name.  It should have the pattern\n"}
+[1.065119] (custom_msgs_srvs) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.065170] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.065221] (custom_msgs_srvs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.065271] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.065322] (custom_msgs_srvs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.065374] (custom_msgs_srvs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.065426] (custom_msgs_srvs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.065477] (custom_msgs_srvs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.065527] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.065578] (custom_msgs_srvs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.065628] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.065679] (custom_msgs_srvs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.065730] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.065781] (custom_msgs_srvs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.065833] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.065890] (custom_msgs_srvs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.065940] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[1.065991] (custom_msgs_srvs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.066044] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[1.066095] (custom_msgs_srvs) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.066146] (custom_msgs_srvs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[1.066196] (custom_msgs_srvs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.066246] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.066310] (custom_msgs_srvs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'boolean' is an invalid message\n"}
+[1.066458] (custom_msgs_srvs) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.066523] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.066577] (custom_msgs_srvs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.066627] (custom_msgs_srvs) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.066681] (custom_msgs_srvs) StderrLine: {'line': b'  CMakeLists.txt:18 (rosidl_generate_interfaces)\n'}
+[1.066731] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.066781] (custom_msgs_srvs) StderrLine: {'line': b'\n'}
+[1.066831] (custom_msgs_srvs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.066888] (custom_msgs_srvs) StdoutLine: {'line': b'See also "/home/george/Documents/ProjectDir/build/custom_msgs_srvs/CMakeFiles/CMakeOutput.log".\n'}
+[1.078734] (custom_msgs_srvs) CommandEnded: {'returncode': 1}
+[1.102633] (-) TimerEvent: {}
+[1.203579] (-) TimerEvent: {}
+[1.261566] (custom_msgs_srvs) JobEnded: {'identifier': 'custom_msgs_srvs', 'rc': 1}
+[1.272271] (-) EventReactorShutdown: {}

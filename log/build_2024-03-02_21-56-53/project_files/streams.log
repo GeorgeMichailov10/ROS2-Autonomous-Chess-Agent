@@ -1,0 +1,16 @@
+[1.217s] Invoking command in '/home/george/Documents/ProjectDir/src/project_files': PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed
+[1.397s] running egg_info
+[1.397s] writing ../../build/project_files/project_files.egg-info/PKG-INFO
+[1.398s] writing dependency_links to ../../build/project_files/project_files.egg-info/dependency_links.txt
+[1.398s] writing entry points to ../../build/project_files/project_files.egg-info/entry_points.txt
+[1.398s] writing requirements to ../../build/project_files/project_files.egg-info/requires.txt
+[1.398s] writing top-level names to ../../build/project_files/project_files.egg-info/top_level.txt
+[1.425s] reading manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[1.426s] writing manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+[1.427s] running build
+[1.427s] running build_py
+[1.427s] running install
+[1.429s] running install_lib
+[1.430s] running install_data
+[1.431s] error: can't copy 'msg/*.msg': doesn't exist or not a regular file
+[1.457s] Invoked command in '/home/george/Documents/ProjectDir/src/project_files' returned '1': PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed

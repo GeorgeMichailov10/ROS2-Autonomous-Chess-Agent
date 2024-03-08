@@ -1,0 +1,14 @@
+running egg_info
+writing ../../build/project_files/project_files.egg-info/PKG-INFO
+writing dependency_links to ../../build/project_files/project_files.egg-info/dependency_links.txt
+writing entry points to ../../build/project_files/project_files.egg-info/entry_points.txt
+writing requirements to ../../build/project_files/project_files.egg-info/requires.txt
+writing top-level names to ../../build/project_files/project_files.egg-info/top_level.txt
+reading manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+writing manifest file '../../build/project_files/project_files.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+error: can't copy 'msg/*.msg': doesn't exist or not a regular file

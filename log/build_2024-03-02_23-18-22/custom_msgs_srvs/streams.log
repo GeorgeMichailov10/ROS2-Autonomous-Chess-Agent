@@ -1,0 +1,21 @@
+[0.232s] Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs
+[0.253s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.345s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.665s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.802s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.802s]   Packages installing interfaces must include
+[0.803s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.803s]   package.xml
+[0.803s] Call Stack (most recent call first):
+[0.803s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.803s] 
+[0.803s] 
+[0.805s] -- Configuring incomplete, errors occurred!
+[0.805s] See also "/home/george/Documents/ProjectDir/build/custom_msgs_srvs/CMakeFiles/CMakeOutput.log".
+[0.815s] Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/george/Documents/ProjectDir/src/custom_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/george/Documents/ProjectDir/install/custom_msgs_srvs

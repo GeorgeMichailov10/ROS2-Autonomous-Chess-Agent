@@ -1,0 +1,2 @@
+string move
+bool castle

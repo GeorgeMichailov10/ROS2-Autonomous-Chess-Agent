@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs_srvs/msg/Bitmap.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs_srvs {
+  module msg {
+    typedef string string__8[8];
+    struct Bitmap {
+      string__8 row1;
+
+      string__8 row2;
+
+      string__8 row3;
+
+      string__8 row4;
+
+      string__8 row5;
+
+      string__8 row6;
+
+      string__8 row7;
+
+      string__8 row8;
+    };
+  };
+};

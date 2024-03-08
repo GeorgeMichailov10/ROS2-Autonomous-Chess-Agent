@@ -1,0 +1,220 @@
+[2.995s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.995s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb3b7cc4fa0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb3b7cc4fa0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb3b7cc4df0>)
+[3.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.148s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/george/Documents/ProjectDir'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['ignore', 'ignore_ament_install']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'ignore'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'ignore_ament_install'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['colcon_pkg']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'colcon_pkg'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['colcon_meta']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'colcon_meta'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['ros']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'ros'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['cmake', 'python']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'cmake'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'python'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extensions ['python_setup_py']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(debugging) by extension 'python_setup_py'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extensions ['ignore', 'ignore_ament_install']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extension 'ignore'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extension 'ignore_ament_install'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extensions ['colcon_pkg']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extension 'colcon_pkg'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extensions ['colcon_meta']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extension 'colcon_meta'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extensions ['ros']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs_srvs) by extension 'ros'
+[3.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs_srvs' with type 'ros.ament_cmake' and name 'custom_msgs_srvs'
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['ignore', 'ignore_ament_install']
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ignore'
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ignore_ament_install'
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['colcon_pkg']
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'colcon_pkg'
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['colcon_meta']
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'colcon_meta'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extensions ['ros']
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_files) by extension 'ros'
+[3.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_files' with type 'ros.ament_python' and name 'project_files'
+[3.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_args' from command line to 'None'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_target' from command line to 'None'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.596s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.596s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/george/Documents/ProjectDir/build/custom_msgs_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/george/Documents/ProjectDir/install/custom_msgs_srvs', 'merge_install': False, 'path': '/home/george/Documents/ProjectDir/src/custom_msgs_srvs', 'symlink_install': False, 'test_result_base': None}
+[3.647s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_args' from command line to 'None'
+[3.647s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_target' from command line to 'None'
+[3.647s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_clean_cache' from command line to 'False'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_clean_first' from command line to 'False'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'cmake_force_configure' from command line to 'False'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'ament_cmake_args' from command line to 'None'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'catkin_cmake_args' from command line to 'None'
+[3.648s] Level 5:colcon.colcon_core.verb:set package 'project_files' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.648s] DEBUG:colcon.colcon_core.verb:Building package 'project_files' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/george/Documents/ProjectDir/build/project_files', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/george/Documents/ProjectDir/install/project_files', 'merge_install': False, 'path': '/home/george/Documents/ProjectDir/src/project_files', 'symlink_install': False, 'test_result_base': None}
+[3.699s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/george/Documents/ProjectDir/src/custom_msgs_srvs' with build type 'ament_cmake'
+[3.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/george/Documents/ProjectDir/src/custom_msgs_srvs'
+[3.811s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': /usr/bin/cmake --build /home/george/Documents/ProjectDir/build/custom_msgs_srvs -- -j6 -l6
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '0': /usr/bin/cmake --build /home/george/Documents/ProjectDir/build/custom_msgs_srvs -- -j6 -l6
+[4.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs': /usr/bin/cmake --install /home/george/Documents/ProjectDir/build/custom_msgs_srvs
+[4.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs_srvs)
+[4.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/george/Documents/ProjectDir/build/custom_msgs_srvs' returned '0': /usr/bin/cmake --install /home/george/Documents/ProjectDir/build/custom_msgs_srvs
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs' for CMake module files
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs' for CMake config files
+[4.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'cmake_prefix_path')
+[4.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.ps1'
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.dsv'
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.sh'
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib'
+[4.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'ld_library_path_lib')
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.ps1'
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.dsv'
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.sh'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/bin'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/pkgconfig/custom_msgs_srvs.pc'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages'
+[4.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'pythonpath')
+[4.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.dsv'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.sh'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/bin'
+[4.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.ps1'
+[4.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.dsv'
+[4.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.sh'
+[4.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.bash'
+[4.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.zsh'
+[4.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/colcon-core/packages/custom_msgs_srvs)
+[4.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs_srvs)
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs' for CMake module files
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs' for CMake config files
+[4.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'cmake_prefix_path')
+[4.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.ps1'
+[4.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.dsv'
+[4.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/cmake_prefix_path.sh'
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib'
+[4.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'ld_library_path_lib')
+[5.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.ps1'
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.dsv'
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/ld_library_path_lib.sh'
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/bin'
+[5.048s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/pkgconfig/custom_msgs_srvs.pc'
+[5.048s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages'
+[5.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs_srvs', 'pythonpath')
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.ps1'
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.dsv'
+[5.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/hook/pythonpath.sh'
+[5.104s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/bin'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.ps1'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.sh'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.bash'
+[5.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/custom_msgs_srvs/package.zsh'
+[5.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/george/Documents/ProjectDir/install/custom_msgs_srvs/share/colcon-core/packages/custom_msgs_srvs)
+[5.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/george/Documents/ProjectDir/src/project_files' with build type 'ament_python'
+[5.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_files', 'ament_prefix_path')
+[5.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.dsv'
+[5.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/ament_prefix_path.sh'
+[5.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.512s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/george/Documents/ProjectDir/src/project_files'
+[5.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/george/Documents/ProjectDir/src/project_files': AMENT_PREFIX_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs CMAKE_PREFIX_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs LD_LIBRARY_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed
+[6.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/george/Documents/ProjectDir/src/project_files' returned '0': AMENT_PREFIX_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs CMAKE_PREFIX_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs LD_LIBRARY_PATH=/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib PYTHONPATH=/home/george/Documents/ProjectDir/build/project_files/prefix_override:/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages:/home/george/Documents/ProjectDir/install/custom_msgs_srvs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_files build --build-base /home/george/Documents/ProjectDir/build/project_files/build install --record /home/george/Documents/ProjectDir/build/project_files/install.log --single-version-externally-managed
+[6.301s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files' for CMake module files
+[6.301s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files' for CMake config files
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files/lib'
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files/bin'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files/lib/pkgconfig/project_files.pc'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files/lib/python3.8/site-packages'
+[6.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_files', 'pythonpath')
+[6.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/pythonpath.ps1'
+[6.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/pythonpath.dsv'
+[6.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/george/Documents/ProjectDir/install/project_files/share/project_files/hook/pythonpath.sh'
+[6.356s] Level 1:colcon.colcon_core.environment:checking '/home/george/Documents/ProjectDir/install/project_files/bin'
+[6.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_files)
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/project_files/share/project_files/package.ps1'
+[6.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/george/Documents/ProjectDir/install/project_files/share/project_files/package.dsv'
+[6.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/project_files/share/project_files/package.sh'
+[6.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/project_files/share/project_files/package.bash'
+[6.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/george/Documents/ProjectDir/install/project_files/share/project_files/package.zsh'
+[6.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/george/Documents/ProjectDir/install/project_files/share/colcon-core/packages/project_files)
+[6.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.414s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.487s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.512s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.512s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.ps1'
+[6.570s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/george/Documents/ProjectDir/install/_local_setup_util_ps1.py'
+[6.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.ps1'
+[6.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.sh'
+[6.625s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/george/Documents/ProjectDir/install/_local_setup_util_sh.py'
+[6.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.sh'
+[6.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.bash'
+[6.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.bash'
+[6.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/george/Documents/ProjectDir/install/local_setup.zsh'
+[6.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/george/Documents/ProjectDir/install/setup.zsh'
